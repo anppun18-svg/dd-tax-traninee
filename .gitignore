@@ -1,0 +1,34 @@
+# Binaries (ไฟล์ .exe หรือไฟล์ที่ได้จากการ build)
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Go build output
+bin/
+build/
+dist/
+
+# Test binary
+*.test
+
+# IDE / Editor folders
+.vscode/
+.idea/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Go workspace files (ถ้ามี)
+go.work
+go.work.sum
+
+# Temporary files
+*.log
+*.tmp
+
+# Environment / Secrets (ถ้ามี)
+.env
+.env.local
